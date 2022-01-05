@@ -14,7 +14,7 @@ rm -rf /usr/local/go
 mkdir -p ~/.temp
 cd ~/.temp
 curl https://dl.google.com/go/go$VERSION.darwin-amd64.tar.gz --output go$VERSION.darwin-amd64.tar.gz
-tar -C /usr/local -xzf go$VERSION.darwin-amd64.tar.gz
+sudo tar -C /usr/local -xzf go$VERSION.darwin-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 # source ~/.profile
 # echo "export PATH=\$PATH:/usr/local/go/bin" >> ~/.profile
