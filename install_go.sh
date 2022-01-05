@@ -9,7 +9,7 @@
 VERSION=1.17.5
 
 # uninstall existing version
-rm -rf /usr/local/go
+sudo rm -rf /usr/local/go
 
 mkdir -p ~/.temp
 cd ~/.temp
