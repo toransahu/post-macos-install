@@ -10,3 +10,5 @@
 brew install apache-flink
 # usage: 
 # $ flink -h
+# start local cluster
+# $ /usr/local/Cellar/apache-flink/1.14.4/libexec/bin/start-cluster.sh
