@@ -6,7 +6,7 @@
 # Distributed under terms of the MIT license.
 #
 
-VERSION=1.19.2
+VERSION=1.21.3
 
 # uninstall existing version
 sudo rm -rf /usr/local/go
@@ -23,4 +23,4 @@ export PATH=$PATH:/usr/local/go/bin
 # go install github.com/go-delve/delve/cmd/dlv@latest
 
 # for personal repos
-git config --global url."git@github.com:".insteadOf "https://github.com/"
+# git config --global url."git@github.com:".insteadOf "https://github.com/"
