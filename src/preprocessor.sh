@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# git
+brew install git
+
 # git sign-commit prereq
 brew install gnupg gnupg2
 
