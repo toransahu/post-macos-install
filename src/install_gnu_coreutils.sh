@@ -6,8 +6,6 @@
 # Distributed under terms of the MIT license.
 #
 
-
-brew install coreutils
-
+brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep
 # safely do
 # export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
