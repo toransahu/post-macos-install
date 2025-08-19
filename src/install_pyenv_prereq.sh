@@ -7,7 +7,7 @@
 #
 
 
-xcode-select --install
+which xcode-select || xcode-select --install && echo "Successfully installed Xcode Command Line Tools" || echo "Failed to (re)install Xcode Command Line Tools"
 
 brew install openssl readline sqlite3 xz zlib
 
