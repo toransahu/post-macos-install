@@ -3,15 +3,18 @@
 # prereq
 brew install pkg-config utf8proc
 
-git clone https://github.com/tmux/tmux.git /tmp/tmux || (cd /tmp/tmux && git pull origin master)
+# always realy on brew install for better compatibility in macos
+brew install tmux
 
-cd /tmp/tmux
+# git clone https://github.com/tmux/tmux.git /tmp/tmux || (cd /tmp/tmux && git pull origin master)
 
-git checkout master
+# cd /tmp/tmux
 
-sh autogen.sh
+# git checkout master
 
-./configure --enable-utf8proc && make
+# sh autogen.sh
 
-sudo make install
+# ./configure --enable-utf8proc && make
+
+# sudo make install
 
