@@ -7,5 +7,7 @@
 #
 
 
-# install exuberant ctags (replace default BSD ctags)
-brew install ctags
+# install exuberant ctags (replace default BSD ctags) - Now universal-ctags is being maintained after the fork
+# brew install ctags
+# brew install gotags
+brew install universal-ctags
